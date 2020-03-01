@@ -9,4 +9,8 @@ public class Calculator {
     int add () {
         return a+b;
     }
+
+    public int sub() {
+        return 0;
+    }
 }
