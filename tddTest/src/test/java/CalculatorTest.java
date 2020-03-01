@@ -6,6 +6,7 @@ class CalculatorTest {
     void addTest() {
         Calculator c = new Calculator(1,3);
         assertEquals(4, c.add());
+        assertEquals(3, c.sub());
     }
 
 }
